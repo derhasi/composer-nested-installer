@@ -1,0 +1,68 @@
+{
+  "name": "derhasi/composer-nested-installer",
+  "type": "composer-installer",
+  "license": "GPL-2.0+",
+  "description": "Composer library installer supporting nested packages",
+  "keywords": [
+    "installer",
+    "AGL",
+    "AnnotateCms",
+    "Bitrix",
+    "CakePHP",
+    "Chef",
+    "CodeIgniter",
+    "concrete5",
+    "Craft",
+    "Croogo",
+    "DokuWiki",
+    "Dolibarr",
+    "Drupal",
+    "Elgg",
+    "FuelPHP",
+    "Grav",
+    "Hurad",
+    "Joomla",
+    "Kohana",
+    "Laravel",
+    "Lithium",
+    "Magento",
+    "Mako",
+    "MODX Evo",
+    "MediaWiki",
+    "OXID",
+    "MODULEWork",
+    "Moodle",
+    "Piwik",
+    "phpBB",
+    "PPI",
+    "Puppet",
+    "Roundcube",
+    "shopware",
+    "SilverStripe",
+    "SMF",
+    "symfony",
+    "Thelia",
+    "TYPO3",
+    "WolfCMS",
+    "WordPress",
+    "Zend",
+    "Zikula"
+  ],
+  "homepage": "https://github.com/derhasi/composer-nested-installer",
+  "authors": [
+    {
+      "name": "Johannes Haseitl",
+      "email": "johannes@undpaul.de",
+      "homepage": "https://github.com/derhasi"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "derhasi\\Composer\\Installers\\": "src/" }
+  },
+  "extra": {
+    "class": "derhasi\\Composer\\Installers\\NestedInstaller"
+  },
+  "require": {
+    "composer/installers": "1.0.*"
+  }
+}
